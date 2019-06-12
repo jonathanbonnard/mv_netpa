@@ -5,6 +5,7 @@ This work explores the sensibility of the AlexNet architecture in front of sever
 
 # modification list
 - Convolution kernel of the first layer is downsized to 9,7,5 and finally 3
+- Convolution Kernel of all layer set at 3
 - TanH is used in the first layer so that the mapping is easier on embedded target (8 bits)
 - Max or Mean pooling layer is placed at the output of the first layer (central node processing)
 - Feature maps of all layers are cut in half
